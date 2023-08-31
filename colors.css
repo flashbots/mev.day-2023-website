@@ -1,0 +1,41 @@
+:root.light {
+  --body-bg-color: #ffffff;
+  --body-tx-color: #0d0d0d;
+
+  /* Site Selector */
+  --selector-bg-color: #f3f3f3;
+  --selector-bg-color-active: #ffffff;
+  --selector-bd-color: #dedede;
+  --selector-tx-color: #828282;
+  --selector-tx-color-active: var(--body-tx-color);
+  --selector-svg-color: #a4a4a4;
+  --selector-svg-color-active: var(--selector-tx-color-active);
+
+  /* Buttons */
+  --btn-bd-color: var(--body-tx-color);
+  --btn-bg-color: var(--body-bg-color);
+  --btn-tx-color: var(--body-tx-color);
+  --btn-bg-color-hover: var(--btn-tx-color);
+  --btn-tx-color-hover: var(--btn-bg-color);
+}
+
+:root.dark {
+  --body-bg-color: #0d0d0d;
+  --body-tx-color: #ffffff;
+
+  /* Site Selector */
+  --selector-bg-color: rgba(109, 71, 133, 0.1);
+  --selector-bg-color-active: #f5e7fd;
+  --selector-bd-color: rgba(109, 71, 133, 0.6);
+  --selector-tx-color: #b6a3c2;
+  --selector-tx-color-active: #1c1c1b;
+  --selector-svg-color: var(--selector-tx-color);
+  --selector-svg-color-active: var(--selector-tx-color-active);
+
+  /* Buttons */
+  --btn-bd-color: #b6a3c2;
+  --btn-bg-color: rgba(20, 20, 21, 0.8);
+  --btn-tx-color: var(--body-tx-color);
+  --btn-bg-color-hover: #f5e7fd;
+  --btn-tx-color-hover: var(--btn-bg-color);
+}
